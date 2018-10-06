@@ -4,7 +4,7 @@ public class InterruptDemoHelper {
 	public void demoHelper() {
 		InterruptDemo iD = new InterruptDemo();
 		iD.start();
-		//iD.interrupt();
+		iD.interrupt();
 		System.out.println("End of Helper method");
 	}
 
